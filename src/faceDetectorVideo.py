@@ -11,8 +11,8 @@ import cv2
 
 
 #defining prototext and caffemodel paths
-caffeModel = "C:/Users/KIIT/Desktop/Developer/Python/Python udemy/Computer Vision A-Z udemy/Computer_Vision_A_Z_Template_Folder/Module 1 - Face Recognition/More accurate Face Detector/models/res10_300x300_ssd_iter_140000.caffemodel"
-prototextPath = "C:/Users/KIIT/Desktop/Developer/Python/Python udemy/Computer Vision A-Z udemy/Computer_Vision_A_Z_Template_Folder/Module 1 - Face Recognition/More accurate Face Detector/models/deploy.prototxt.txt"
+caffeModel = "res10_300x300_ssd_iter_140000.caffemodel"
+prototextPath = "deploy.prototxt.txt"
 
 #Load Model
 print("Loading model...................")
